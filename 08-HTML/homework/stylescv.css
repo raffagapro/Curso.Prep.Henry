@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.068);
+    margin: 0 10%;
+}
+.row{
+    border-bottom: 1px solid #fff;
+}
+.main-row{
+    background-image: url(images/moto.jpg);
+    background-size: cover;
+    background-position: bottom;
+    max-height: 500px;
+    /* background-color: ; */
+}
+.about-me-row{
+    background-color: #362222;
+    color: white;
+}
+.edu-row{
+    background-color: #423F3E;
+    color: white;
+}
+.skill-row{
+    background-color: #2B2B2B;
+    color: white;
+}
+.wrapper{
+    max-width: 900;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.left-col{
+    flex: 0 0 500px;
+    text-align: center;
+}
+.left-col h5{
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 35px;
+}
+.right-col{
+    padding: 35px 125px;
+    width: 100%;
+
+}
+.right-col p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+#profile-photo{
+    height: auto;
+    width: 500px;
+    border-right: solid 1px #fff;
+}
+.main-title{
+    width: 100%;
+    padding-left: 125px;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    align-self: center;
+}
+.main-title h5{
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: 300;
+}
+.main-title h1{
+    margin-bottom: 10px;
+}
+.edu-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.edu-cont{
+    flex: 0 0 75%;
+}
+.skill-cont{
+    flex: 0 0 25%;
+}
+.edu-cont h5{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.edu-cont p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.grad-date{
+    text-align: right;
+    width: 100%;
+}
+.grad-date h5{
+    font-size: 14px;
+    font-weight: 300;
+}
+.no-b{
+    border: none;
+}

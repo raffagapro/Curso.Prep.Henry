@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://cdn.wallpapersafari.com/7/66/NM8JEY.jpg");
+    color: white;
+}
+h1{
+    color: blueviolet;
+}
+img{
+    width: 400px;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.divClass{
+    width: 900px;
+    display: flex;
+    flex-flow: column wrap;
+    /* align-items: center; */
+    /* margin: 0 auto; */
+    text-align: center;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: chartreuse;
+    padding: 50px;
+    border: 2px solid red;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
